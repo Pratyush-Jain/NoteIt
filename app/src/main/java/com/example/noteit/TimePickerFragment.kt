@@ -26,7 +26,7 @@ class TimePickerFragment: DialogFragment(), TimePickerDialog.OnTimeSetListener {
     }
 
     override fun onTimeSet(view: TimePicker, hourOfDay: Int, minute: Int) {
-        time_btn!!.text = "Hello"
+        time_btn!!.text = "Hello World"
     //Toast.makeText(this.context,"$hourOfDay",Toast.LENGTH_SHORT).show()
 
     }
